@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
-      {/* 音乐自动播放 */}
+      {/* 音乐自动借口 */}
       <audio src="/周杰伦 - 借口.mp3" autoPlay loop hidden />
 
       {/* 描述段落 */}
