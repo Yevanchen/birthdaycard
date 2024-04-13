@@ -31,3 +31,32 @@ body {
     text-wrap: balance;
   }
 }
+/* 确保整个容器居中并限制最大宽度，避免在大屏幕上过宽 */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* 使容器至少和视口一样高 */
+}
+
+/* 为 Questionnaire 组件腾出空间 */
+.questionnaire-wrapper {
+  width: 1748px; /* 宽度 */
+  height: 1240px; /* 高度 */
+  max-width: 100%; /* 确保宽度不会超过视口宽度 */
+  margin: auto; /* 水平居中 */
+  
+  padding: 20px; /* 可选的内边距 */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center; /* 内部内容水平居中 */
+  align-items: center; /* 内部内容竖直居中 */
+}
+
+/* 响应式设计：在较小的屏幕上适应 */
+@media (max-width: 1800px) {
+  .questionnaire-wrapper {
+    width: 90%; /* 或其他比例，根据需要调整 */
+    height: auto; /* 根据内容调整高度 */
+  }
+}
