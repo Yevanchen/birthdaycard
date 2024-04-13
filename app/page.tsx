@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
       {/* 音乐自动播放 */}
-      <audio src="/your-music-file.mp3" autoPlay loop hidden />
+      <audio src="/周杰伦 - 借口.mp3" autoPlay loop hidden />
 
       {/* 描述段落 */}
       <p className="text-xl text-center mb-4">Happy Birthday, dear friend! 🎉</p>
