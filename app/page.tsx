@@ -93,7 +93,7 @@ export default function Home() {
         <title>Happy Birthday</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <audio ref={audioRef} src="/jieko.mp3" loop hidden></audio>
+      <audio ref={audioRef} src="/creep.mp3" loop hidden></audio>
       <div className="fixed inset-0 bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url(/bg.png)' }}></div>
       <div className="flex flex-col relative">
       
