@@ -21,6 +21,7 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onQuizComplete
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [showCorrect, setShowCorrect] = useState<boolean | null>(null);
+  
 
   // 处理选项的选择
   const handleOptionSelect = (option: Option) => {
